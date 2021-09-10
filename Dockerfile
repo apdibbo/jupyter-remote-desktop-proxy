@@ -11,7 +11,8 @@ RUN apt-get -y update \
    xfce4-session \
    xfce4-settings \
    xorg \
-   xubuntu-icon-theme
+   xubuntu-icon-theme \ 
+   net-tools
 
 # Remove light-locker to prevent screen lock
 ARG TURBOVNC_VERSION=2.2.6
